@@ -1,0 +1,105 @@
+#skills{
+
+    overflow:hidden;
+    width:100vw;
+    max-width: 65rem;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin:0 auto;
+}
+.skillTitle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding:3rem;
+    margin-bottom: 1rem;
+    padding:1.5rem;
+}
+.skillDescription{
+    font-weight: 200;
+    font-size: 1rem;
+    max-width:51rem;
+    padding:0 2rem;
+}
+.skillBars{
+    margin:3.5rem ;
+    width:100vw;
+    max-width: 80%;
+    text-align: left;
+
+}
+.skillBar{
+    /* margin-left: 5rem; */
+    display:flex;
+    margin:1rem;
+    padding:1.75rem  6rem;
+    border-radius: 0.5rem;
+    background: rgb(50,50,50);
+
+}
+ .skillBarText{
+    color:aqua;
+}
+.skillBarText:hover{
+    transform: scale(1.1);
+}
+.skillBarText>p{
+    font-size: 0.rem;
+    font-weight: 200;
+}
+.skillBarText>p{
+    font-size: 1rem;
+    font-weight: 200;
+}
+.skillBarImg{
+    width:50px;
+    height:50px;
+    margin-right: .5cm;
+}
+.techskills h3{
+    color:aqua;
+    padding: 10px;
+}
+.techskills{
+    padding:10px;
+}
+.sch{
+    padding:6px;
+}
+.techskills1{
+    padding:10px;
+}
+.techskills1 h3{
+    color:aqua;
+    padding:5px;
+}
+.tech{
+    padding:3px;
+}
+.tech span{
+    color:rgb(14, 212, 14)
+}
+
+
+@media screen and (max-width:720px){
+    .skillBarText>p{
+        font-size: 2vw;
+    }
+    @media screen and (max-width: 480px){
+        .skillBarText>p{
+            font-size: 2vw;
+        }
+        .skillBarImg{
+            height:2.25rem;
+        }
+        .skillBarText>h2{
+            font-size: 5vw;
+        }
+        .skillDescription{
+            font-size: .8rem;
+        }
+    }
+}
+

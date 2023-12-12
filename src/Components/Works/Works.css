@@ -1,0 +1,158 @@
+.works {
+    margin:0 auto;
+    min-height:calc(100vh- 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:0 1rem;
+}
+.worksTitle{
+    margin:1rem 0;
+    font-size: 3rem;
+}
+.worksDesc{
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 45rem;
+    padding:10px;
+}
+.worksImg:hover{
+    box-sizing: 5px;
+    cursor: pointer;
+}
+
+
+/* .worksImgs{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    /* width:100vw; */
+    /* max-width: 65rem; */
+    /* padding:3rem 2rem 2rem 2rem; */
+    /* margin-left:1 auto; */
+    /* height:100%; */
+    /* box-sizing: content-box; */
+/* } */
+/* .worksImg{   
+    object-fit: cover;
+    height:500px;
+    display:flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    width:500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}  */
+.worksBtn{
+    margin:3rem 0;
+    padding:0.5rem 2.5rem;
+    border:none;
+    border-radius: 2rem;
+    font-size: 1rem;
+    background: white;
+}
+.workimg img {
+    border-radius: 12px;
+  }
+  .workimg {
+  position: relative;
+  text-align: center;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  padding: 10px; /* Add some padding to the container */
+  margin: 10px; /* Add some margin to the container */
+  border: 1px solid #ccc; /* Add a border to the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.workimg h4 {
+  margin-bottom: 0;
+}
+
+.workimg img {
+  transition: transform 0.3s; /* Add a smooth transition for the transform property */
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+.workimg .linkk {
+  opacity: 0;
+  transition: opacity 0.3s;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+}
+
+.workimg:hover img {
+  transform: scale(1.1);
+}
+
+.workimg:hover .linkk {
+  opacity: 1;
+}
+
+  
+  
+  
+  
+     
+    @media screen and (min-width:400px){
+        .worksImgs {
+            grid-template-columns: 1fr; 
+            padding: 3rem ;
+         }
+    }
+    /* Default styles for larger screens */
+.worksImgs1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .worksImg1,
+  .worksImg,
+  .port1 {
+    width: 100%; /* Make images and links take full width */
+    box-sizing: border-box; /* Include padding and border in the width */
+    margin-bottom: 10px; /* Add some spacing between elements */
+  }
+ .port1{
+    padding:10px;
+    font-size: larger;
+ }
+ .port1:hover{
+    color:white;
+ }
+ .worksImgs1 h4{
+    color: aqua;
+    padding-top: 10px;
+ }
+ .linkk{
+    color:crimson;
+    font-size: medium;
+    font-weight: 500;
+ }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 600px) {
+    .worksImg1,
+    .worksImg,
+    .port1 {
+      width: 100%; /* Make images and links take full width on smaller screens */
+    }
+  }
+  
+   
+   
+
